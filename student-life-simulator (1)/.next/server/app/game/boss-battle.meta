@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/game/layout,_N_T_/game/boss-battle/layout,_N_T_/game/boss-battle/page,_N_T_/game/boss-battle"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/game/boss-battle/__PAGE__",
+    "/game/boss-battle",
+    "/game",
+    "/_index",
+    "/_head"
+  ]
+}

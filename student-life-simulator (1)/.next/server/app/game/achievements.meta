@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/game/layout,_N_T_/game/achievements/layout,_N_T_/game/achievements/page,_N_T_/game/achievements"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/game/achievements/__PAGE__",
+    "/game/achievements",
+    "/game",
+    "/_index",
+    "/_head"
+  ]
+}

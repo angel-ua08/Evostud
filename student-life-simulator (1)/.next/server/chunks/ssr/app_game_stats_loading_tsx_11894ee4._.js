@@ -1,0 +1,3 @@
+module.exports=[29132,a=>{"use strict";var b=a.i(7997);function c(){return(0,b.jsx)("div",{className:"min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50",children:(0,b.jsxs)("div",{className:"text-center",children:[(0,b.jsx)("div",{className:"w-16 h-16 border-4 border-purple-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"}),(0,b.jsx)("p",{className:"text-lg font-semibold text-purple-700",children:"Завантаження статистики..."})]})})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=app_game_stats_loading_tsx_11894ee4._.js.map

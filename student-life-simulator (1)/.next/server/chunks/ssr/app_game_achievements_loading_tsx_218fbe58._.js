@@ -1,0 +1,3 @@
+module.exports=[85720,a=>{"use strict";var b=a.i(7997);function c(){return(0,b.jsx)("div",{className:"min-h-screen bg-gradient-to-br from-background via-background to-primary/5 flex items-center justify-center",children:(0,b.jsxs)("div",{className:"text-center",children:[(0,b.jsx)("div",{className:"w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"}),(0,b.jsx)("p",{className:"text-xl",children:"Завантаження досягнень..."})]})})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=app_game_achievements_loading_tsx_218fbe58._.js.map

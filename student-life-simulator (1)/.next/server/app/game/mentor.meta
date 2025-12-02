@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/game/layout,_N_T_/game/mentor/layout,_N_T_/game/mentor/page,_N_T_/game/mentor"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/game/mentor/__PAGE__",
+    "/game/mentor",
+    "/game",
+    "/_index",
+    "/_head"
+  ]
+}

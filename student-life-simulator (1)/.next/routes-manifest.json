@@ -1,0 +1,248 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/signup",
+      "regex": "^/auth/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/signup(?:/)?$"
+    },
+    {
+      "page": "/auth/signup-success",
+      "regex": "^/auth/signup\\-success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/signup\\-success(?:/)?$"
+    },
+    {
+      "page": "/game",
+      "regex": "^/game(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game(?:/)?$"
+    },
+    {
+      "page": "/game/achievements",
+      "regex": "^/game/achievements(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/achievements(?:/)?$"
+    },
+    {
+      "page": "/game/bank",
+      "regex": "^/game/bank(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/bank(?:/)?$"
+    },
+    {
+      "page": "/game/boss-battle",
+      "regex": "^/game/boss\\-battle(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/boss\\-battle(?:/)?$"
+    },
+    {
+      "page": "/game/cafe",
+      "regex": "^/game/cafe(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/cafe(?:/)?$"
+    },
+    {
+      "page": "/game/care-packages",
+      "regex": "^/game/care\\-packages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/care\\-packages(?:/)?$"
+    },
+    {
+      "page": "/game/events",
+      "regex": "^/game/events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/events(?:/)?$"
+    },
+    {
+      "page": "/game/feedback",
+      "regex": "^/game/feedback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/feedback(?:/)?$"
+    },
+    {
+      "page": "/game/friends",
+      "regex": "^/game/friends(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/friends(?:/)?$"
+    },
+    {
+      "page": "/game/friends/add-by-id",
+      "regex": "^/game/friends/add\\-by\\-id(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/friends/add\\-by\\-id(?:/)?$"
+    },
+    {
+      "page": "/game/friends/list",
+      "regex": "^/game/friends/list(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/friends/list(?:/)?$"
+    },
+    {
+      "page": "/game/friends/requests",
+      "regex": "^/game/friends/requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/friends/requests(?:/)?$"
+    },
+    {
+      "page": "/game/inventory",
+      "regex": "^/game/inventory(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/inventory(?:/)?$"
+    },
+    {
+      "page": "/game/leaderboard",
+      "regex": "^/game/leaderboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/leaderboard(?:/)?$"
+    },
+    {
+      "page": "/game/library",
+      "regex": "^/game/library(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/library(?:/)?$"
+    },
+    {
+      "page": "/game/lottery",
+      "regex": "^/game/lottery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/lottery(?:/)?$"
+    },
+    {
+      "page": "/game/mentor",
+      "regex": "^/game/mentor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/mentor(?:/)?$"
+    },
+    {
+      "page": "/game/npcs",
+      "regex": "^/game/npcs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/npcs(?:/)?$"
+    },
+    {
+      "page": "/game/polytechnic-3d",
+      "regex": "^/game/polytechnic\\-3d(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/polytechnic\\-3d(?:/)?$"
+    },
+    {
+      "page": "/game/profile",
+      "regex": "^/game/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/profile(?:/)?$"
+    },
+    {
+      "page": "/game/quests",
+      "regex": "^/game/quests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/quests(?:/)?$"
+    },
+    {
+      "page": "/game/rewards",
+      "regex": "^/game/rewards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/rewards(?:/)?$"
+    },
+    {
+      "page": "/game/shadow",
+      "regex": "^/game/shadow(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/shadow(?:/)?$"
+    },
+    {
+      "page": "/game/skills",
+      "regex": "^/game/skills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/skills(?:/)?$"
+    },
+    {
+      "page": "/game/stats",
+      "regex": "^/game/stats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/stats(?:/)?$"
+    },
+    {
+      "page": "/game/timelines",
+      "regex": "^/game/timelines(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/timelines(?:/)?$"
+    },
+    {
+      "page": "/game/world",
+      "regex": "^/game/world(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/game/world(?:/)?$"
+    },
+    {
+      "page": "/onboarding",
+      "regex": "^/onboarding(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/onboarding(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

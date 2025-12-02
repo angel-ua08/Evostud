@@ -1,0 +1,22 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.studentlife.simulator
+productName: Student Life Simulator
+npmRebuild: false
+buildDependenciesFromSource: false
+nodeGypRebuild: false
+files:
+  - filter:
+      - out/**/*
+      - electron/**/*
+      - node_modules/**/*
+      - package.json
+win:
+  target:
+    - nsis
+  signAndEditExecutable: false
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+electronVersion: 39.2.4
